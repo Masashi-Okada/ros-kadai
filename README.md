@@ -14,4 +14,5 @@ ROS_VER=noetic
 # 手順
 # 実行した様子
 # ライセンス
+BSD 3-Clause License
 
