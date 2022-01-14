@@ -15,11 +15,11 @@ ROS_VER=noetic
 > ## インストール
 
 
->> $cd ~/catkin_ws/src
+> $cd ~/catkin_ws/src
 
->>$git clone git@github.com:Masashi-Okada/ros-kadai.git
+>$git clone git@github.com:Masashi-Okada/ros-kadai.git
 
->>$ catkin_make
+>$ catkin_make
 
 
 
@@ -27,7 +27,7 @@ ROS_VER=noetic
 >## 端末ごとの操作
 >>#### 端末a
 
->>>$cd catkin_ws/src/mypkg/scripts
+>>$cd catkin_ws/src/mypkg/scripts
 
 >>>$chmod +x count.py 
 
