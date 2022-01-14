@@ -15,7 +15,7 @@ ROS_VER=noetic
 ## インストール
 $cd ~/catkin_ws/src
 
-$git clone 
+$git clone git@github.com:Masashi-Okada/ros-kadai.git
 
 $cd ..
 
