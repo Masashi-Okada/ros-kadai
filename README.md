@@ -15,6 +15,10 @@ ROS_VER=noetic
 ## インストール
 $cd ~/catkin_ws/src
 
+$git clone 
+
+$cd ..
+
 $ catkin_make
 
 ## 端末ごとの操作
