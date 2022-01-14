@@ -15,11 +15,11 @@ ROS_VER=noetic
 > ## インストール
 
 
- $cd ~/catkin_ws/src
+>> $cd ~/catkin_ws/src
 
- $git clone git@github.com:Masashi-Okada/ros-kadai.git
+>>$git clone git@github.com:Masashi-Okada/ros-kadai.git
 
- $ catkin_make
+>>$ catkin_make
 
 
 
@@ -27,34 +27,34 @@ ROS_VER=noetic
 >## 端末ごとの操作
 >>#### 端末a
 
-$cd catkin_ws/src/mypkg/scripts
+>>>$cd catkin_ws/src/mypkg/scripts
 
-$chmod +x count.py 
+>>>$chmod +x count.py 
 
 >>#### 端末b
 
-$cd catkin_ws/src
+>>>$cd catkin_ws/src
 
-$roscore
+>>>$roscore
 
 >>#### 端末c
 
-$cd catkin_ws
+>>>$cd catkin_ws
 
-$rosrun mypkg count.py
+>>>$rosrun mypkg count.py
 
 >>#### 端末d
 
-$cd catkin_ws
+>>>$cd catkin_ws
 
-$ rosrun mypkg twice.py
+>>>$ rosrun mypkg twice.py
 
 >>#### 端末e
 
-$rostopic echo /twice
+>>>$rostopic echo /twice
 
 >## 動作説明
-2ずつ増えていき40になると0に戻ります。これをループします。
+>>2ずつ増えていき40になると0に戻ります。これをループします。
 
 # 実行した様子
 https://youtu.be/cJmko0m8ghI
