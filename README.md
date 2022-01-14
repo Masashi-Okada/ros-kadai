@@ -13,11 +13,13 @@ ROS_VER=noetic
 
 # 手順
 ## インストール
-'''$cd ~/catkin_ws/src
+'''
+$cd ~/catkin_ws/src
 
 $git clone git@github.com:Masashi-Okada/ros-kadai.git
 
-$ catkin_make'''
+$ catkin_make
+'''
 
 ## 端末ごとの操作
 #### 端末a
