@@ -7,7 +7,7 @@
 # 環境
 Raspberry Pi3 Model B
 
-OS: ubuntu 18.04 server
+OS: ubuntu 20.04 server
 
 ROS_VER=noetic
 
@@ -16,8 +16,6 @@ ROS_VER=noetic
 $cd ~/catkin_ws/src
 
 $git clone git@github.com:Masashi-Okada/ros-kadai.git
-
-$cd ..
 
 $ catkin_make
 
@@ -51,7 +49,7 @@ $ rosrun mypkg twice.py
 $rostopic echo /twice
 
 ## 動作説明
-2ずつ増えていき40になると0に戻る。これをループする。
+2ずつ増えていき40になると0に戻ります。これをループします。
 
 # 実行した様子
 https://youtu.be/cJmko0m8ghI
