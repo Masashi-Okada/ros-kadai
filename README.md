@@ -9,11 +9,11 @@
 
 # 環境
 
-Raspberry Pi3 Model B
+- Raspberry Pi3 Model B
 
-OS: ubuntu 20.04 server
+- OS: ubuntu 20.04 server
 
-ROS_VER=noetic
+- ROS_VER=noetic
 ***
 # 手順
 以下の順に実行してください。
