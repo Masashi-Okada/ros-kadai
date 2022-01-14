@@ -1,4 +1,4 @@
-# ros-count
+# ROS_COUNT
 
 # 概要
 
@@ -16,6 +16,7 @@ OS: ubuntu 20.04 server
 ROS_VER=noetic
 ***
 # 手順
+以下の順に実行してください。
 
  ## インストール
 ---
@@ -83,6 +84,8 @@ $rostopic echo /twice
 # 実行した様子
 
 https://youtu.be/cJmko0m8ghI
+
+urlより結果を確認いただけます。
 ***
 # ライセンス
 
