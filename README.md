@@ -35,7 +35,7 @@ $ catkin_make
 
 ## 端末ごとの操作
 
-#### `〇端末a`
+#### 〇`端末a`
 
 
 ```
@@ -45,7 +45,7 @@ $chmod +x count.py
 ```
 ***
 
-#### `〇端末b`
+#### 〇`端末b`
 
 ```
 $cd catkin_ws/src
@@ -54,7 +54,7 @@ $roscore
 ```
 ***
 
-#### `〇端末c`
+#### 〇`端末c`
 ```
 $cd catkin_ws
 
@@ -62,7 +62,7 @@ $rosrun mypkg count.py
 ```
 ***
 
-#### `〇端末d`
+#### 〇`端末d`
 ```
 $cd catkin_ws
 
@@ -70,7 +70,7 @@ $ rosrun mypkg twice.py
 ```
 ***
 
-#### `〇端末e`
+#### 〇`端末e`
 ```
 $rostopic echo /twice
 ```
