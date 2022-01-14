@@ -89,6 +89,6 @@ urlより結果を確認いただけます。
 ***
 # ライセンス
 
-[BSD 3-Clause License]
+[BSD 3-Clause License](https://github.com/Masashi-Okada/ros-kadai/blob/master/LICENSE)
 ***
 
