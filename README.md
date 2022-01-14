@@ -17,7 +17,7 @@ ROS_VER=noetic
 ***
 # 手順
 
-> ## インストール
+ ## インストール
 ---
 
 
@@ -31,9 +31,9 @@ $ catkin_make
 
 
 
->## 端末ごとの操作
+## 端末ごとの操作
 
->>#### `端末a`
+#### `端末a`
 
 
 
@@ -42,7 +42,7 @@ $cd catkin_ws/src/mypkg/scripts
 $chmod +x count.py 
 ***
 
->>#### 端末b
+#### `端末b`
 
 
 $cd catkin_ws/src
@@ -50,26 +50,26 @@ $cd catkin_ws/src
 $roscore
 ***
 
->>#### 端末c
+#### `端末c`
 
 $cd catkin_ws
 
 $rosrun mypkg count.py
 ***
 
->>#### 端末d
+#### `端末d`
 
 $cd catkin_ws
 
 $ rosrun mypkg twice.py
 ***
 
->>#### 端末e
+#### `端末e`
 
 $rostopic echo /twice
 ***
 
->>## 動作説明
+## 動作説明
 
 2ずつ増えていき40になると0に戻ります。これをループします。
 ***
