@@ -54,6 +54,7 @@ $rostopic echo /twice
 2ずつ増えていき40になると0に戻る。これをループする。
 
 # 実行した様子
+https://youtu.be/cJmko0m8ghI
 # ライセンス
 BSD 3-Clause License
 
